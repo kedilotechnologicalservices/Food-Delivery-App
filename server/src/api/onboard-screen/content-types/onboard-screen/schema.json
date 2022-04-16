@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "onboard_screens",
+  "info": {
+    "singularName": "onboard-screen",
+    "pluralName": "onboard-screens",
+    "displayName": "Onboard Screen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "onboard_images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
